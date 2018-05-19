@@ -94,8 +94,8 @@ footer {
         margin-left: 0em;
         margin-right: 0em;
         padding: 0em;
-        
     }
+
     main {
         grid-template-areas: 
         "section1"
@@ -135,8 +135,8 @@ footer {
     main {
         
         grid-template-areas:
-        "section1 section2"
-        "section3 section4";
+        "section1 section2 section3"
+        "section4 section5 section6";
         grid-gap: 1.5em;
     }
     header {
