@@ -49,6 +49,7 @@ nav li {
 img{
     max-width: 100%;
 }
+
 main {
     display: grid;
     margin-left: 0.5em;
@@ -61,6 +62,7 @@ section {
     padding: 0.5em 1em;
     box-shadow: 5px 5px 5px #ffffff;
     background-color: #000000b0;
+    
 }
 .sectionHeader {
     color:#ffffff;
@@ -69,6 +71,7 @@ section {
 .sectionImg {
     display: grid;
     margin: auto;
+    text-align: center;
 }
 #My Profile{
     grid-area: section1;} 
