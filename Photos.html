@@ -4,23 +4,36 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Profile</title>
-        <link rel="stylesheet" href="./css/Me.css">
+        <link rel="stylesheet" href="./css/photo.css">
         <link href="https://fonts.googleapis.com/css?family=Kanit|Montserrat" rel="stylesheet">
     </head>
     <body>
         <header>My Profile</header>
+        
         <nav class="mainMenu">
             <li><a href="./index.html"><img src="./image/home-icon.png" class="Menu"><br>Home</a></li>
             <li><a href="./Me.html"><img src="./image/pro-icon.png" class="Menu"></div><br>My Profile</a></li>
             <li><a href="./mylove.html"><img src="./image/mylove-icon.png"class="Menu"></div><br>My Love</a></li>
         </nav>      
-            <main>
-                
-            </main>
+        <main>
+            <div class="block1">
+                <a onclick="plusDivs(-1)"><img src="image/p-btn.png"></a>
+            </div>
+            <div class="block2">
+                <img class="mySlides" src="./image/p1.jpg">
+                <img class="mySlides" src="./image/p2.jpg" >
+                <img class="mySlides" src="./image/p4.jpg" >
+                <img class="mySlides" src="./image/p3.jpg" >
+                <img class="mySlides" src="./image/p5.jpg" >
+            </div>
+            <div class="block3">
+                <a onclick="plusDivs(+1)"><img src="image/n-btn.png" ></a>
+            </div>       
+        </main>
+        <script src="script/pic.js"></script>
         <footer>
-            <footer>
-                <p>Pornsiri  Homniam</p>
-                <div>Icons made by <a href="https://www.iconfinder.com/korawan_m" title="BomSymbols ">BomSymbols </a> from <a href="https://www.iconfinder.com/" title="iconfinder">www.flaticon.com</a><br>
-            </footer>
+            <p>Pornsiri  Homniam</p>
+            <div>Icons made by <a href="https://www.iconfinder.com/korawan_m" title="BomSymbols ">BomSymbols </a> from <a href="https://www.iconfinder.com/" title="iconfinder">www.flaticon.com</a><br>
+        </footer>
     </body>
 </html>
